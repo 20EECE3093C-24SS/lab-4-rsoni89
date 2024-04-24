@@ -1,6 +1,5 @@
 import pytest
-from sample import course_grader 
-import convert_to_letter_grade
+from course_grader import convert_to_letter_grade
 
 
 # TODO-1: Add test_exact_grade_boundaries() function
