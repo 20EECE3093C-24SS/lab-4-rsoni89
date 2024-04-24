@@ -2,7 +2,7 @@
 def convert_to_letter_grade(score):
 
     if not isinstance(score,(int,float)):
-        raise TypeError("score must be a number")
+        raise TypeError("score must be a numberic value")
 
     if score < 0 or score > 100:
         raise ValueError("score must be between 0 and 100")
