@@ -1,5 +1,5 @@
 # TODO-1: add convert_to_letter_grade(score) function
-def convert_to_grade(score):
+def convert_to_letter_grade(score):
 
     if not isinstance(score,(int,float)):
         raise TypeError("score must be a number")
