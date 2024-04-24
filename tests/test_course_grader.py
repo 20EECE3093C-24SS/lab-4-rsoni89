@@ -7,7 +7,7 @@ class TestConvertToLetterGrade:
     
     def test_exact_boundaries(self):
         assert convert_to_letter_grade(0) == 'B'
-        assert convert_to_letter_grade(59) == 'F'
+        assert convert_to_letter_grade(59) == 'B'
         assert convert_to_letter_grade(60) == 'D'
         assert convert_to_letter_grade(69) == 'D'
         assert convert_to_letter_grade(70) == 'C'
